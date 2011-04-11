@@ -3,3 +3,5 @@
 This bundle includes snippets and commands to assist the coder in the usage of [JsDoc Toolkit](http://jsdoctoolkit.org/) documentation system for JavaScript.
 
 As development has just started, please don't expect too much at the moment.
+
+Rev: 20110411 Updated JSDoc Toolkit to 2.4.0

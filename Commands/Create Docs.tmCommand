@@ -49,6 +49,8 @@ fi
 	<string>showAsHTML</string>
 	<key>scope</key>
 	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>jsdoc</string>
 	<key>uuid</key>
 	<string>90789BAB-3820-40BA-AE3A-F354C79A7D5D</string>
 </dict>
