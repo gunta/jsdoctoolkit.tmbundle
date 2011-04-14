@@ -32,7 +32,7 @@ if [ "$rv" == "1" ]; then
 	fi
 
 	# Run JsDoc Toolkit
-	java -jar "${JSDOC_DIR}/jsrun.jar" "${JSDOC_DIR}/app/run.js" -a -t="${JSDOC_DIR}/templates/jsdoc" -d="${DOCS_DIR}" -r .
+	java -jar "${JSDOC_DIR}/jsrun.jar" "${JSDOC_DIR}/app/run.js" -a -t="${JSDOC_DIR}/templates/codeview" -d="${DOCS_DIR}" -r .
 
   echo "&lt;/pre&gt;"
   echo "&lt;h4&gt;Finished writing docs to &lt;strong&gt;$DOCS_DIR&lt;/strong&gt;&lt;/h4&gt;"
