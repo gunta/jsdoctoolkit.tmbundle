@@ -11,12 +11,14 @@ As development has just started, please don't expect too much at the moment.
 
 Usage
 =====
-Anywhere in your js files use the "jsdoc" tab trigger to generate the documentation
+* Document your code using [JsDoc Toolkit](http://jsdoctoolkit.org/)
+* Anywhere in your js files use the *jsdoc* tab trigger to generate the documentation
 
 Changelog
 =========
+
 v1.0
 ----
 * Updated JSDoc Toolkit to 2.4.0
 * Added Codeview 1.2 as default template
-* Added "jsdoc" tab trigger to generate the doc
+* Added *jsdoc* tab trigger to generate the doc
