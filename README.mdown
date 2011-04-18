@@ -3,7 +3,7 @@
 Overview
 ========
 
-This bundle includes snippets and commands to assist the coder in the usage of [JsDoc Toolkit](http://jsdoctoolkit.org/) documentation system for JavaScript.
+This bundle includes snippets and commands to assist the coder in the usage of [JsDoc Toolkit](http://code.google.com/p/jsdoc-toolkit/) documentation system for JavaScript.
 
 As development has just started, please don't expect too much at the moment.
 
@@ -11,7 +11,7 @@ As development has just started, please don't expect too much at the moment.
 
 Usage
 =====
-* Document your code using [JsDoc Toolkit](http://jsdoctoolkit.org/)
+* Document your code using [JsDoc Toolkit](http://code.google.com/p/jsdoc-toolkit/)
 * Anywhere in your js files use the *jsdoc* tab trigger to generate the documentation
 
 Changelog
