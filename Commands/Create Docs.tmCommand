@@ -14,9 +14,10 @@ fi
 DOCS_DIR="${TM_PROJECT_DIRECTORY}"/jsdoc
 
 # Confirm the user wants to build docs
-rv=$(CocoaDialog msgbox --text "Building JS Documentation may take a while. Continue?" \
-	--informative-text "Files will be written to this folder: $DOCS_DIR" \
-	 --button1 "Continue" --button2 "Cancel")
+#rv=$(CocoaDialog msgbox --text "Building JS Documentation may take a while. Continue?" \
+#	--informative-text "Files will be written to this folder: $DOCS_DIR" \
+#	 --button1 "Continue" --button2 "Cancel")
+rv=1
 
 if [ "$rv" == "1" ]; then
 
@@ -32,7 +33,7 @@ if [ "$rv" == "1" ]; then
 	fi
 
 	# Run JsDoc Toolkit
-	java -jar "${JSDOC_DIR}/jsrun.jar" "${JSDOC_DIR}/app/run.js" -a -t="${JSDOC_DIR}/templates/codeview" -d="${DOCS_DIR}" -r .
+	java -jar "${JSDOC_DIR}/jsrun.jar" "${JSDOC_DIR}/app/run.js" -a -t="${JSDOC_DIR}/templates/aias-frame" -d="${DOCS_DIR}" -r .
 
   echo "&lt;/pre&gt;"
   echo "&lt;h4&gt;Finished writing docs to &lt;strong&gt;$DOCS_DIR&lt;/strong&gt;&lt;/h4&gt;"

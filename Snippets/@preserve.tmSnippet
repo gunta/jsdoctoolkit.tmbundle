@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@param {${1:string|Object|Array|boolean|number|Object=|Array.&lt;Function&gt;}} ${2:paramName} ${3:Describe this parameter}</string>
+	<string>@preserve ${1:Copyright 2009 SomeThirdParty.}</string>
 	<key>name</key>
-	<string>@param</string>
+	<string>@preserve</string>
 	<key>scope</key>
 	<string>source.js comment.block</string>
 	<key>tabTrigger</key>
-	<string>p</string>
+	<string>pre</string>
 	<key>uuid</key>
-	<string>23BD1117-5982-480D-8987-AD1BD2C85F5F</string>
+	<string>3AF815EC-81BD-41F7-9517-EC7C5F310602</string>
 </dict>
 </plist>

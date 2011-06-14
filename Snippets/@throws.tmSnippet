@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@param {${1:string|Object|Array|boolean|number|Object=|Array.&lt;Function&gt;}} ${2:paramName} ${3:Describe this parameter}</string>
+	<string>@throws {${1:OutOfMemory}} ${2:Exception description}</string>
 	<key>name</key>
-	<string>@param</string>
+	<string>@throws</string>
 	<key>scope</key>
 	<string>source.js comment.block</string>
 	<key>tabTrigger</key>
-	<string>p</string>
+	<string>th</string>
 	<key>uuid</key>
-	<string>23BD1117-5982-480D-8987-AD1BD2C85F5F</string>
+	<string>153E2A47-4005-4ECA-AD09-2357BDEC5F0E</string>
 </dict>
 </plist>

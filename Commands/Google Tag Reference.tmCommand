@@ -7,20 +7,24 @@
 	<key>command</key>
 	<string>PAGE=$TM_CURRENT_WORD
 if [ "$PAGE"="" ]; then
-  PAGE="Tag Reference"
+  PAGE="Comments"
+else
+  PAGE="tag-""$PAGE"
 fi
-echo "&lt;meta http-equiv='Refresh' content='0;URL=http://jsdoctoolkit.org/wiki/?page=$PAGE'&gt;"</string>
+
+echo "&lt;meta http-equiv='Refresh' content='0;URL=http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml?showone=Comments#$PAGE'&gt;"
+</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>^H</string>
+	<string>^h</string>
 	<key>name</key>
-	<string>Tag Reference</string>
+	<string>Google Tag Reference</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
 	<string>source.js comment.block</string>
 	<key>uuid</key>
-	<string>519DB239-7440-4F16-85B5-8FA665C47661</string>
+	<string>D4B6D799-C840-4032-B0B5-9F0108277462</string>
 </dict>
 </plist>
