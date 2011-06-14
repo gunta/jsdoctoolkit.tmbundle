@@ -22,3 +22,23 @@ v1.0
 * Updated JSDoc Toolkit to 2.4.0
 * Added Codeview 1.2 as default template
 * Added *jsdoc* tab trigger to generate the doc
+
+v1.1
+----
+* Changed tab trigger to short forms, like in JavaDoc (ie. @params is triggered by 'p', not by 'par' now)
+* Added aias-frame as default template (it is searchable, etc.)
+
+Roadmap
+=======
+
+* Integrate Google Closure Compiler
+* Make a GUI for the Google Closure Compiler
+* Choose between Codeview and aias-frame as a default template. If possible make it selectable
+* Remove unnedded Tag Reference (or update it)
+* Change output 
+* Make possible to document with only one file
+* Change shortcut for Generate Docs
+* Change project name
+* Add syntax highlighting for {string}, etc.
+* Update tag descriptions to something better
+* Update creating docs parser: change text, parse text, create final link

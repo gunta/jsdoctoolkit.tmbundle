@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@returns {${1:string|Object|Array|boolean|number}} ${2:Describe the return value}</string>
+	<string>@return {${1:string|Object|Array|boolean|number}} ${2:Describe the return value}</string>
 	<key>name</key>
 	<string>@return</string>
 	<key>scope</key>

@@ -5,7 +5,11 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string># Edit this if you'd like to change the default location
+	<string>. "$TM_SUPPORT_PATH/lib/webpreview.sh"
+html_header "Create documentation"
+
+
+# Edit this if you'd like to change the default location
 if [ "${TM_PROJECT_DIRECTORY}" == "" ]; then
 	echo "&lt;h3 style="color:red"&gt;Documentation can only be built for projects, not single files.&lt;/h3&gt;"
 	exit
@@ -41,6 +45,9 @@ if [ "$rv" == "1" ]; then
 elif [ "$rv" == "2" ]; then
     exit
 fi
+
+
+html_footer
 </string>
 	<key>input</key>
 	<string>none</string>

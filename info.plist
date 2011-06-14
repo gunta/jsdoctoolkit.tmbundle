@@ -62,9 +62,10 @@
 		</dict>
 	</dict>
 	<key>name</key>
-	<string>JsDoc Google Toolkit</string>
+	<string>JavaScript JSDoc</string>
 	<key>ordering</key>
 	<array>
+		<string>67DD54A8-932D-4CAE-9AB2-7A8C96FD58BF</string>
 		<string>AEECA456-DA6C-46F7-A329-D190593DE48D</string>
 		<string>C2FCCC37-C144-4021-87E6-DC0692572996</string>
 		<string>3CECAB5A-46EC-437D-BA6A-0795D48A2C18</string>
